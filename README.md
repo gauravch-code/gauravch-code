@@ -52,12 +52,11 @@ I'm an MS Computer Science student at the University of Illinois Chicago (May 20
 
 ---
 
-### 📊 GitHub Stats
+### 📚 Currently studying
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=gauravch-code&show_icons=true&hide_border=true&theme=default&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravch-code&layout=compact&hide_border=true&theme=default&langs_count=8" height="150" />
-</p>
+- Multi-agent orchestration patterns (LangGraph, CrewAI internals)
+- LLM post-training methods (DPO, RLHF, PEFT)
+- Distributed systems fundamentals for backend interviews
 
 ---
 
