@@ -29,7 +29,7 @@ I'm an MS Computer Science student at the University of Illinois Chicago (May 20
 > Semantic search across Pandas, NumPy, and Scikit-learn docs. MLP classifier ranks results by source reliability, **improving answer relevance by 20%** by prioritizing official API references over community content.
 
 **🎬 [Movie Recommendation Engine](https://github.com/Srivatsa03/Movie-Recommendation)** &nbsp;·&nbsp; `Python` `Docker` `FastAPI` `SVD++`
-> SVD++ collaborative filtering with automated retraining lifecycle. **0.92 RMSE**, containerized inference behind FastAPI, handling **50+ concurrent requests at sub-200ms p95**.
+> SVD++ collaborative filtering with automated retraining lifecycle. **0.58 RMSE**, containerized inference behind FastAPI, handling **50+ concurrent requests at sub-200ms p95**.
 
 ---
 
