@@ -1,57 +1,71 @@
-### Hi, I'm Gaurav 👋
+# Gaurav Chintak
 
-I'm an MS Computer Science graduate from the University of Illinois Chicago (May 2026, GPA 3.89), building agentic AI systems, RAG pipelines, and full-stack products in Python, Go, and TypeScript. I'm on OPT and open to full-time **AI Engineer**, **ML Engineer**, and **SDE** roles at startups and mid-sized companies.
+**AI engineer building agentic systems that are useful, observable, and grounded in real workflows.**
 
-📍 New Jersey · ✉️ gaurav.pvt25@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/gauravchintak/) · 🌐 [Portfolio](https://gauravch-code.github.io/Portfolio/)
+I am an MS Computer Science graduate from the University of Illinois Chicago (May 2026, GPA 3.89). My work spans local-first AI, agent evaluation and observability, RAG, synthetic data generation, and full-stack products in Python, Go, and TypeScript.
 
----
+Based in New Jersey | Open to full-time AI Engineer, ML Engineer, and Software Engineer roles | OPT work authorization
 
-### 🛠 Currently
-
-- Shipping **Winnow**, a local-first AI inbox triage agent with a tiered classifier + LLM architecture
-- Building autonomous multi-agent systems with **CrewAI**, **PydanticAI**, **MCP**, and **LangGraph**
-- Contributing to open-source agentic frameworks (**OpenSRE**, exploring **CrewAI** and **Letta** next)
+[Email](mailto:gaurav.pvt25@gmail.com) | [LinkedIn](https://www.linkedin.com/in/gauravchintak/) | [Portfolio](https://gauravch-code.github.io/Portfolio/)
 
 ---
 
-### 🚀 Featured Projects
+## Featured Work
 
-**📬 [Winnow](https://github.com/gauravch-code/winnow)** · `Python` `FastAPI` `PydanticAI` `Next.js` `Postgres` `scikit-learn`
-> **Local-first AI inbox triage** with a tiered classifier + LLM architecture. A local scikit-learn + MiniLM classifier handles the majority of routing in **~5ms on CPU at $0**; a PydanticAI agent runs only on uncertain cases. Nightly retraining loop learns from user corrections with regression guardrails. **153 passing tests**, full-stack (FastAPI + Next.js 15).
+### [Winnow](https://github.com/gauravch-code/winnow) - Local-first AI inbox triage
 
-**🔧 [Autonomous Agentic SRE Pipeline](https://github.com/gauravch-code/Agentic-SRE-Pipeline)** · `Go` `Python` `MCP` `Kubernetes` `CrewAI` `Gemini`
-> Self-healing pipeline that polls Prometheus, diagnoses incidents via an MCP-bridged LLM, and pushes strategic merge patches to resolve OOM errors without human intervention. Go watchdog triggers CrewAI agents that analyze pod logs in a closed remediation loop with escalation memory (restart first, patch limits second).
+[Live demo](https://gauravch-code.github.io/winnow/) | [Source code](https://github.com/gauravch-code/winnow)
 
-**⚙️ [ToolGen](https://github.com/gauravch-code/toolgen)** · `Python` `OpenAI` `NetworkX` `Pydantic` `Multi-Agent` `LLM-as-Judge`
-> Multi-agent synthetic data pipeline that generates multi-turn tool-use conversations grounded in ToolBench schemas. LLM-as-judge scores each conversation on **naturalness, tool correctness, and task completion**, with automatic repair loops on low-quality outputs and cross-conversation diversity steering for training-set variety.
+Winnow classifies email locally before deciding whether an LLM is needed. A scikit-learn model with MiniLM embeddings handles confident messages in roughly 5 ms on CPU; uncertain cases can opt into a PydanticAI fallback. User corrections become training data for a guarded retraining loop, and every decision remains explainable.
 
-**📚 [AI Research Assistant](https://github.com/gauravch-code/AI-Research-Assistant)** · `Python` `LangChain` `FastAPI` `Pinecone`
-> Production RAG API for querying academic documents in natural language. **Sub-200ms p95** under concurrent load with **95% retrieval consistency**. Automated regression testing via GitHub Actions.
+`Python` `FastAPI` `PydanticAI` `scikit-learn` `Sentence Transformers` `Postgres` `Next.js` `TypeScript`
 
-**🤖 [AI Documentation Bot](https://github.com/gauravch-code/AI-doc-bot)** · `Python` `LangChain` `Pinecone` `OpenAI`
-> Semantic search across Pandas, NumPy, and Scikit-learn docs. MLP classifier ranks results by source reliability, **improving answer relevance by 20%** by prioritizing official API references over community content.
+### [TraceGuard](https://github.com/gauravch-code/TraceGuard) - AI agent run tracing and review
 
----
+[Live demo](https://gauravch-code.github.io/TraceGuard/) | [Source code](https://github.com/gauravch-code/TraceGuard)
 
-### 🌱 Open Source
+TraceGuard records AI-agent runs, exposes each step and tool call, and places generated support drafts into a human review queue. It includes a working support-agent example plus an ingestion API that lets external agents submit their own traces.
 
-**[OpenSRE](https://github.com/Tracer-Cloud/opensre/pull/716)** · ⭐ 1,900+ stars · AI-powered SRE agent framework
-> Redesigned the root-cause analysis prompt with a structured multi-step reasoning sequence (hypothesis generation, evidence validation, elimination). Added an alternative-hypothesis output section that **reduced false-positive classifications by 30%**, plus a backward-compatible response parser for mixed-signal incidents.
+`TypeScript` `Next.js` `OpenAI` `Cloudflare Workers` `D1` `Drizzle`
 
----
+### [Agentic SRE Pipeline](https://github.com/gauravch-code/Agentic-SRE-Pipeline) - Autonomous Kubernetes remediation
 
-### 🧰 Tech Stack
+[Live demo](https://gauravch-code.github.io/Agentic-SRE-Pipeline/) | [Source code](https://github.com/gauravch-code/Agentic-SRE-Pipeline)
 
-**Languages** Python · Go · TypeScript · JavaScript · Scala · SQL · C
+A Go watchdog polls Prometheus for memory pressure and sends incidents to a CrewAI orchestrator. Four allowlisted MCP tools collect evidence and perform bounded remediation: restart on the first alert, then double the memory limit only when the problem recurs inside the escalation window.
 
-**AI / ML** PyTorch · TensorFlow · LangChain · CrewAI · PydanticAI · MCP · DSPy · PEFT · Transformers · RAG · Pinecone · Sentence Transformers · Scikit-learn
+`Go` `Python` `CrewAI` `MCP` `Kubernetes` `Prometheus` `Flask`
 
-**Backend & Infra** FastAPI · Next.js · Postgres · SQLAlchemy · Kubernetes · Docker · Prometheus · Spark · AWS · Azure · Vercel · Railway · GitHub Actions · Linux
+### [Toolgen](https://github.com/gauravch-code/toolgen) - Tool-use training data generator
 
-**Data & Viz** Pandas · NumPy · OpenCV · Tableau · Streamlit
+[Live demo](https://gauravch-code.github.io/toolgen/) | [Source code](https://github.com/gauravch-code/toolgen)
+
+Toolgen turns ToolBench schemas into grounded, multi-turn training conversations. It builds an endpoint graph, samples connected tool chains, executes schema-valid mock responses with session state, and uses an LLM judge plus repair loop to protect dataset quality and diversity.
+
+`Python` `Pydantic` `NetworkX` `OpenAI` `Faker` `Multi-agent systems` `LLM-as-judge`
 
 ---
 
-### 💬 Let's talk
+## Open Source
 
-If you're hiring for AI/ML engineering, agentic systems, or full-stack ML products, I'd love to hear from you. The fastest way to reach me is **gaurav.pvt25@gmail.com** or a **[LinkedIn](https://www.linkedin.com/in/gauravchintak/)** message.
+### [OpenSRE](https://github.com/Tracer-Cloud/opensre/pull/716)
+
+Contributed a structured root-cause analysis prompt, alternative-hypothesis output, and a backward-compatible response parser for mixed-signal incidents.
+
+---
+
+## Engineering Toolbox
+
+**Languages:** Python, Go, TypeScript, JavaScript, SQL, Scala, C
+
+**AI and ML:** PyTorch, TensorFlow, PydanticAI, CrewAI, LangGraph, LangChain, MCP, DSPy, Transformers, RAG, Sentence Transformers, scikit-learn
+
+**Backend and data:** FastAPI, Flask, Next.js, Postgres, SQLAlchemy, Drizzle, Pinecone, Pandas, NumPy, Spark
+
+**Infrastructure:** Kubernetes, Docker, Prometheus, Cloudflare Workers, AWS, Azure, GitHub Actions, Linux
+
+---
+
+## Let's Connect
+
+I am interested in teams building AI agents, evaluation infrastructure, developer tools, and full-stack ML products. Reach me at [gaurav.pvt25@gmail.com](mailto:gaurav.pvt25@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/gauravchintak/).
