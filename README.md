@@ -1,4 +1,4 @@
-# Gaurav Chintak
+# Gaurav Chintakunta
 
 **AI engineer building agentic systems that are useful, observable, and grounded in real workflows.**
 
