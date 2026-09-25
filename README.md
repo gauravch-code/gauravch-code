@@ -73,41 +73,22 @@ Every project has a live, in-browser demo. No sign-up and no API key needed.
 
 ## Open source
 
-Each fix is a real bug I found, reproduced, fixed and covered with a regression test. The status badges update live.
+I find real bugs in AI tools, reproduce them, and ship the fix with a regression test.
 
-| Project | What I fixed | Status |
-|---|---|---|
-| [**OpenSRE**](https://github.com/Tracer-Cloud/opensre) ![stars](https://img.shields.io/github/stars/Tracer-Cloud/opensre?style=flat&label=%E2%98%85&color=555) | [Evidence-grounded root-cause analysis](https://github.com/Tracer-Cloud/opensre/pull/716): a structured RCA prompt with an alternative-hypothesis output, which cut false-positive classifications by 30% | ![state](https://img.shields.io/github/pulls/detail/state/Tracer-Cloud/opensre/716) |
-| [**Haystack**](https://github.com/deepset-ai/haystack) ![stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=flat&label=%E2%98%85&color=555) | [MetaFieldRanker ignored its missing-meta policy](https://github.com/deepset-ai/haystack/pull/12863): one `None` metadata value silently turned off ranking for the whole batch | ![state](https://img.shields.io/github/pulls/detail/state/deepset-ai/haystack/12863) |
-| [**Sentence Transformers**](https://github.com/huggingface/sentence-transformers) ![stars](https://img.shields.io/github/stars/huggingface/sentence-transformers?style=flat&label=%E2%98%85&color=555) | [Hard-negative mining skipped the CrossEncoder](https://github.com/huggingface/sentence-transformers/pull/4073) when `min_score` was the only filter | ![state](https://img.shields.io/github/pulls/detail/state/huggingface/sentence-transformers/4073) |
-| [**browser-use**](https://github.com/browser-use/browser-use) ![stars](https://img.shields.io/github/stars/browser-use/browser-use?style=flat&label=%E2%98%85&color=555) | [`send_keys` treated "center" as an Enter key](https://github.com/browser-use/browser-use/pull/5690) and added a navigation wait to ordinary typing | ![state](https://img.shields.io/github/pulls/detail/state/browser-use/browser-use/5690) |
-| [**Diffusers**](https://github.com/huggingface/diffusers) ![stars](https://img.shields.io/github/stars/huggingface/diffusers?style=flat&label=%E2%98%85&color=555) | [Positional config arguments were lost](https://github.com/huggingface/diffusers/pull/14708) on a `from_config` round-trip | ![state](https://img.shields.io/github/pulls/detail/state/huggingface/diffusers/14708) |
-| [**Chroma**](https://github.com/chroma-core/chroma) ![stars](https://img.shields.io/github/stars/chroma-core/chroma?style=flat&label=%E2%98%85&color=555) | [Collection names with invisible whitespace](https://github.com/chroma-core/chroma/pull/7610) are now rejected with a clear error | ![state](https://img.shields.io/github/pulls/detail/state/chroma-core/chroma/7610) |
+<!-- oss:start -->
+**2 merged · 6 in review** across 8 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
 
----
-
-## Contribution activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravch-code/gauravch-code/output/github-snake-dark.svg" />
-    <img alt="Gaurav's GitHub contribution grid, animated as a snake eating each day's contributions. Regenerated daily." src="https://raw.githubusercontent.com/gauravch-code/gauravch-code/output/github-snake.svg" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gauravch-code&theme=github_dark" />
-    <img alt="Gaurav's GitHub contributions over the last year" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gauravch-code&theme=default" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=gauravch-code&theme=dark&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF&hide_border=true" />
-    <img alt="Gaurav's GitHub contribution streak" src="https://streak-stats.demolab.com?user=gauravch-code&ring=0D9488&fire=0D9488&currStreakLabel=0D9488&hide_border=true" />
-  </picture>
-</p>
+| | Project | Pull request | Date |
+|---|---|---|---|
+| ✅ Merged | [**haystack**](https://github.com/deepset-ai/haystack) ★ 26.6k | [Treat None meta values as missing in MetaFieldRanker](https://github.com/deepset-ai/haystack/pull/12863) | Sep 2026 |
+| ✅ Merged | [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 11.2k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
+| 🔄 In review | [**sentence-transformers**](https://github.com/huggingface/sentence-transformers) ★ 19.1k | [Rescore with the CrossEncoder when only min_score is set in mine_hard_negatives](https://github.com/huggingface/sentence-transformers/pull/4073) | Sep 2026 |
+| 🔄 In review | [**zed**](https://github.com/zed-industries/zed) ★ 90.9k | [Fix thread switcher registration after enabling AI](https://github.com/zed-industries/zed/pull/63992) | Sep 2026 |
+| 🔄 In review | [**agno**](https://github.com/agno-agi/agno) ★ 42.3k | [Restore direct answers for simple route-mode requests](https://github.com/agno-agi/agno/pull/10072) | Sep 2026 |
+| 🔄 In review | [**browser-use**](https://github.com/browser-use/browser-use) ★ 116k | [Replace Enter substring matching with dispatched-key tracking in send_keys](https://github.com/browser-use/browser-use/pull/5690) | Sep 2026 |
+| 🔄 In review | [**diffusers**](https://github.com/huggingface/diffusers) ★ 34.6k | [Preserve positional __init__ args through from_config round trips](https://github.com/huggingface/diffusers/pull/14708) | Sep 2026 |
+| 🔄 In review | [**chroma**](https://github.com/chroma-core/chroma) ★ 29.4k | [Reject whitespace-padded names](https://github.com/chroma-core/chroma/pull/7610) | Aug 2026 |
+<!-- oss:end -->
 
 ---
 
