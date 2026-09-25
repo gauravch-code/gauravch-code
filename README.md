@@ -90,6 +90,13 @@ Each fix is a real bug I found, reproduced, fixed and covered with a regression 
 
 <p align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravch-code/gauravch-code/output/github-snake-dark.svg" />
+    <img alt="Gaurav's GitHub contribution grid, animated as a snake eating each day's contributions. Regenerated daily." src="https://raw.githubusercontent.com/gauravch-code/gauravch-code/output/github-snake.svg" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gauravch-code&theme=github_dark" />
     <img alt="Gaurav's GitHub contributions over the last year" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gauravch-code&theme=default" />
   </picture>
