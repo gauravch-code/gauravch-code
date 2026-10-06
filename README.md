@@ -89,7 +89,7 @@ I find real bugs in AI tools, reproduce them, and ship the fix with a regression
 | 🔄 In review | [**agno**](https://github.com/agno-agi/agno) ★ 42.6k | [Restore direct answers for simple route-mode requests](https://github.com/agno-agi/agno/pull/10072) | Sep 2026 |
 | 🔄 In review | [**browser-use**](https://github.com/browser-use/browser-use) ★ 117k | [Replace Enter substring matching with dispatched-key tracking in send_keys](https://github.com/browser-use/browser-use/pull/5690) | Sep 2026 |
 | 🔄 In review | [**diffusers**](https://github.com/huggingface/diffusers) ★ 34.7k | [Preserve positional __init__ args through from_config round trips](https://github.com/huggingface/diffusers/pull/14708) | Sep 2026 |
-| 🔄 In review | [**chroma**](https://github.com/chroma-core/chroma) ★ 29.4k | [Reject whitespace-padded names](https://github.com/chroma-core/chroma/pull/7610) | Aug 2026 |
+| 🔄 In review | [**chroma**](https://github.com/chroma-core/chroma) ★ 29.5k | [Reject whitespace-padded names](https://github.com/chroma-core/chroma/pull/7610) | Aug 2026 |
 <!-- oss:end -->
 
 ---
