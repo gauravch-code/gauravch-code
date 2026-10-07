@@ -76,16 +76,18 @@ Every project has a live, in-browser demo. No sign-up and no API key needed.
 I find real bugs in AI tools, reproduce them, and ship the fix with a regression test.
 
 <!-- oss:start -->
-**3 merged · 7 in review** across 10 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
+**3 merged · 9 in review** across 11 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
 
 | | Project | Pull request | Date |
 |---|---|---|---|
 | ✅ Merged | [**txtai**](https://github.com/neuml/txtai) ★ 13k | [Skip NULL aggregate values from shards with no matching rows](https://github.com/neuml/txtai/pull/1331) | Oct 2026 |
 | ✅ Merged | [**haystack**](https://github.com/deepset-ai/haystack) ★ 26.7k | [Treat None meta values as missing in MetaFieldRanker](https://github.com/deepset-ai/haystack/pull/12863) | Sep 2026 |
-| ✅ Merged | [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 11.4k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
+| ✅ Merged | [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 11.5k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
+| 🔄 In review | [**datasets**](https://github.com/huggingface/datasets) ★ 22k | [Support TensorFlow conversion of Dataset columns](https://github.com/huggingface/datasets/pull/8756) | Oct 2026 |
+| 🔄 In review | [**txtai**](https://github.com/neuml/txtai) ★ 13k | [Preserve ordered-list start values in HTMLToMarkdown](https://github.com/neuml/txtai/pull/1356) | Oct 2026 |
 | 🔄 In review | [**typescript-sdk**](https://github.com/modelcontextprotocol/typescript-sdk) ★ 13.5k | [Fix URI template optional query matching](https://github.com/modelcontextprotocol/typescript-sdk/pull/2909) | Sep 2026 |
 | 🔄 In review | [**sentence-transformers**](https://github.com/huggingface/sentence-transformers) ★ 19.2k | [Rescore with the CrossEncoder when only min_score is set in mine_hard_negatives](https://github.com/huggingface/sentence-transformers/pull/4073) | Sep 2026 |
-| 🔄 In review | [**zed**](https://github.com/zed-industries/zed) ★ 91.3k | [Fix thread switcher registration after enabling AI](https://github.com/zed-industries/zed/pull/63992) | Sep 2026 |
+| 🔄 In review | [**zed**](https://github.com/zed-industries/zed) ★ 91.4k | [Fix thread switcher registration after enabling AI](https://github.com/zed-industries/zed/pull/63992) | Sep 2026 |
 | 🔄 In review | [**agno**](https://github.com/agno-agi/agno) ★ 42.6k | [Restore direct answers for simple route-mode requests](https://github.com/agno-agi/agno/pull/10072) | Sep 2026 |
 | 🔄 In review | [**browser-use**](https://github.com/browser-use/browser-use) ★ 117k | [Replace Enter substring matching with dispatched-key tracking in send_keys](https://github.com/browser-use/browser-use/pull/5690) | Sep 2026 |
 | 🔄 In review | [**diffusers**](https://github.com/huggingface/diffusers) ★ 34.7k | [Preserve positional __init__ args through from_config round trips](https://github.com/huggingface/diffusers/pull/14708) | Sep 2026 |
