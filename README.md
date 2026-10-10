@@ -76,7 +76,7 @@ Every project has a live, in-browser demo. No sign-up and no API key needed.
 I find real bugs in AI tools, reproduce them, and ship the fix with a regression test.
 
 <!-- oss:start -->
-**5 merged · 11 in review** across 15 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
+**5 merged · 10 in review** across 14 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
 
 | | Project | Pull request | Date |
 |---|---|---|---|
@@ -86,8 +86,7 @@ I find real bugs in AI tools, reproduce them, and ship the fix with a regression
 | ✅ Merged | [**haystack**](https://github.com/deepset-ai/haystack) ★ 26.7k | [Treat None meta values as missing in MetaFieldRanker](https://github.com/deepset-ai/haystack/pull/12863) | Sep 2026 |
 | ✅ Merged | [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 11.7k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
 | 🔄 In review | [**MentraOS**](https://github.com/Mentra-Community/MentraOS) ★ 2.4k | [Fix Japanese voice-follow scrolling in the teleprompter](https://github.com/Mentra-Community/MentraOS/pull/4585) | Oct 2026 |
-| 🔄 In review | [**connect**](https://github.com/commaai/connect) ★ 147 | [Make pages and dialogs work reliably from URLs](https://github.com/commaai/connect/pull/876) | Oct 2026 |
-| 🔄 In review | [**cli**](https://github.com/fosrl/cli) ★ 58 | [Select ARMv6 binary on armv6l](https://github.com/fosrl/cli/pull/158) | Oct 2026 |
+| 🔄 In review | [**cli**](https://github.com/fosrl/cli) ★ 59 | [Select ARMv6 binary on armv6l](https://github.com/fosrl/cli/pull/158) | Oct 2026 |
 | 🔄 In review | [**ubicloud**](https://github.com/ubicloud/ubicloud) ★ 12.3k | [Ignore extra_float_digits in PgBouncer by default](https://github.com/ubicloud/ubicloud/pull/6630) | Oct 2026 |
 | 🔄 In review | [**datasets**](https://github.com/huggingface/datasets) ★ 22k | [Support TensorFlow conversion of Dataset columns](https://github.com/huggingface/datasets/pull/8756) | Oct 2026 |
 | 🔄 In review | [**typescript-sdk**](https://github.com/modelcontextprotocol/typescript-sdk) ★ 13.5k | [Fix URI template optional query matching](https://github.com/modelcontextprotocol/typescript-sdk/pull/2909) | Sep 2026 |
