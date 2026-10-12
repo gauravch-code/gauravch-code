@@ -87,11 +87,11 @@ I find real bugs in AI tools, reproduce them, and ship the fix with a regression
 | ✅ Merged | [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 11.8k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
 | 🔄 In review | [**ssi**](https://github.com/spruceid/ssi) ★ 264 | [Preserve the original header when verifying detached JWS signatures](https://github.com/spruceid/ssi/pull/711) | Oct 2026 |
 | 🔄 In review | [**baml**](https://github.com/BoundaryML/baml) ★ 9.4k | [Fix runtime initialization with trailing-slash project paths](https://github.com/BoundaryML/baml/pull/5223) | Oct 2026 |
-| 🔄 In review | [**magnitude**](https://github.com/magnitudedev/magnitude) ★ 6.6k | [Remove stale headers from local Codex WebSocket requests](https://github.com/magnitudedev/magnitude/pull/180) | Oct 2026 |
+| 🔄 In review | [**magnitude**](https://github.com/magnitudedev/magnitude) ★ 6.7k | [Remove stale headers from local Codex WebSocket requests](https://github.com/magnitudedev/magnitude/pull/180) | Oct 2026 |
 | 🔄 In review | [**MentraOS**](https://github.com/Mentra-Community/MentraOS) ★ 2.4k | [Fix Japanese voice-follow scrolling in the teleprompter](https://github.com/Mentra-Community/MentraOS/pull/4585) | Oct 2026 |
 | 🔄 In review | [**cli**](https://github.com/fosrl/cli) ★ 59 | [Select ARMv6 binary on armv6l](https://github.com/fosrl/cli/pull/158) | Oct 2026 |
 | 🔄 In review | [**ubicloud**](https://github.com/ubicloud/ubicloud) ★ 12.3k | [Ignore extra_float_digits in PgBouncer by default](https://github.com/ubicloud/ubicloud/pull/6630) | Oct 2026 |
-| 🔄 In review | [**datasets**](https://github.com/huggingface/datasets) ★ 22k | [Support TensorFlow conversion of Dataset columns](https://github.com/huggingface/datasets/pull/8756) | Oct 2026 |
+| 🔄 In review | [**datasets**](https://github.com/huggingface/datasets) ★ 22.1k | [Support TensorFlow conversion of Dataset columns](https://github.com/huggingface/datasets/pull/8756) | Oct 2026 |
 | 🔄 In review | [**typescript-sdk**](https://github.com/modelcontextprotocol/typescript-sdk) ★ 13.6k | [Fix URI template optional query matching](https://github.com/modelcontextprotocol/typescript-sdk/pull/2909) | Sep 2026 |
 | 🔄 In review | [**zed**](https://github.com/zed-industries/zed) ★ 91.6k | [Fix thread switcher registration after enabling AI](https://github.com/zed-industries/zed/pull/63992) | Sep 2026 |
 | 🔄 In review | [**agno**](https://github.com/agno-agi/agno) ★ 42.7k | [Restore direct answers for simple route-mode requests](https://github.com/agno-agi/agno/pull/10072) | Sep 2026 |
