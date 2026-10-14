@@ -76,7 +76,7 @@ Every project has a live, in-browser demo. No sign-up and no API key needed.
 I find real bugs in AI tools, reproduce them, and ship the fix with a regression test.
 
 <!-- oss:start -->
-**6 merged · 13 in review** across 18 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
+**6 merged · 16 in review** across 21 projects. _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
 
 | | Project | Pull request | Date |
 |---|---|---|---|
@@ -86,6 +86,9 @@ I find real bugs in AI tools, reproduce them, and ship the fix with a regression
 | ✅ Merged | [**txtai**](https://github.com/neuml/txtai) ★ 13k | [Skip NULL aggregate values from shards with no matching rows](https://github.com/neuml/txtai/pull/1331) | Oct 2026 |
 | ✅ Merged | [**haystack**](https://github.com/deepset-ai/haystack) ★ 26.7k | [Treat None meta values as missing in MetaFieldRanker](https://github.com/deepset-ai/haystack/pull/12863) | Sep 2026 |
 | ✅ Merged | [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 11.9k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
+| 🔄 In review | [**lemma**](https://github.com/uselemma/lemma) ★ 8 | [Fix missing errors for handled LangChain tool failures](https://github.com/uselemma/lemma/pull/121) | Oct 2026 |
+| 🔄 In review | [**agentphone-mcp**](https://github.com/AgentPhone-AI/agentphone-mcp) ★ 125 | [Let MCP clients page through messages and agents](https://github.com/AgentPhone-AI/agentphone-mcp/pull/83) | Oct 2026 |
+| 🔄 In review | [**openclaw-plugin**](https://github.com/agentmail-to/openclaw-plugin) ★ 3 | [Fix HTML extraction with newer OpenClaw SDK exports](https://github.com/agentmail-to/openclaw-plugin/pull/21) | Oct 2026 |
 | 🔄 In review | [**posthog-js**](https://github.com/PostHog/posthog-js) ★ 634 | [Support Kotlin Gradle files in the Expo plugin](https://github.com/PostHog/posthog-js/pull/5283) | Oct 2026 |
 | 🔄 In review | [**ssi**](https://github.com/spruceid/ssi) ★ 264 | [Preserve the original header when verifying detached JWS signatures](https://github.com/spruceid/ssi/pull/711) | Oct 2026 |
 | 🔄 In review | [**baml**](https://github.com/BoundaryML/baml) ★ 9.4k | [Fix runtime initialization with trailing-slash project paths](https://github.com/BoundaryML/baml/pull/5223) | Oct 2026 |
