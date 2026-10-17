@@ -6,7 +6,7 @@ MS Computer Science, University of Illinois Chicago (May 2026, GPA 3.89). I work
 
 Based in New Jersey · Open to full-time AI Engineer, ML Engineer and Software Engineer roles · OPT work authorization
 
-[**Portfolio**](https://gauravch-code.github.io/Portfolio/) · [Email](mailto:gaurav.pvt25@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravchintak/) · [Resume](https://gauravch-code.github.io/Portfolio/Gaurav_Resume.pdf)
+[**Portfolio**](https://gauravch-code.github.io/Portfolio/) · [Email](mailto:gaurav.pvt25@gmail.com) · [LinkedIn](https://www.linkedin.com/in/gauravchintak/) · [Resume](https://gauravch-code.github.io/Portfolio/Gaurav_Resume.pdf?v=20261010-01553373)
 
 ---
 
