@@ -1,7 +1,7 @@
 """Rebuild the open-source section of the profile README from live GitHub data.
 
-Lists every pull request I've opened against someone else's repository, merged ones first.
-Closed-without-merge PRs are left out. Runs daily from .github/workflows/update-readme.yml.
+Lists only merged pull requests against someone else's repository, newest first.
+Runs daily from .github/workflows/update-readme.yml.
 """
 
 import json
@@ -39,33 +39,29 @@ def title(raw: str) -> str:
 
 
 def build() -> str:
-    items = api(f"search/issues?q=author:{USER}+is:pr+-user:{USER}&sort=created&order=desc&per_page=100")["items"]
+    items = api(f"search/issues?q=author:{USER}+is:pr+is:merged+-user:{USER}&sort=created&order=desc&per_page=100")["items"]
     rows, repo_stars = [], {}
     for pr in items:
         repo = pr["repository_url"].split("/repos/")[1]
         merged_at = pr["pull_request"].get("merged_at")
-        if pr["state"] == "closed" and not merged_at:
+        if not merged_at:
             continue
         if repo not in repo_stars:
             repo_stars[repo] = api(f"repos/{repo}")["stargazers_count"]
-        date = (merged_at or pr["created_at"])[:10]
-        rows.append({"repo": repo, "merged": bool(merged_at), "date": date, "title": title(pr["title"]), "url": pr["html_url"]})
-    # Merged first, then newest first within each group
-    rows.sort(key=lambda r: (not r["merged"], -int(r["date"].replace("-", ""))))
+        rows.append({"repo": repo, "date": merged_at[:10], "title": title(pr["title"]), "url": pr["html_url"]})
+    rows.sort(key=lambda r: r["date"], reverse=True)
 
-    merged = sum(r["merged"] for r in rows)
     lines = [
-        f"**{merged} merged · {len(rows) - merged} in review** across {len(repo_stars)} projects. "
+        f"**{len(rows)} merged PRs across {len(repo_stars)} projects.** "
         f"_Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._",
         "",
-        "| | Project | Pull request | Date |",
-        "|---|---|---|---|",
+        "| Project | Pull request | Merged |",
+        "|---|---|---|",
     ]
     for r in rows:
-        status = "✅ Merged" if r["merged"] else "🔄 In review"
         name = r["repo"].split("/")[1]
         lines.append(
-            f"| {status} | [**{name}**](https://github.com/{r['repo']}) ★ {stars(repo_stars[r['repo']])} "
+            f"| [**{name}**](https://github.com/{r['repo']}) ★ {stars(repo_stars[r['repo']])} "
             f"| [{r['title']}]({r['url']}) | {datetime.fromisoformat(r['date']).strftime('%b %Y')} |"
         )
     return "\n".join(lines)

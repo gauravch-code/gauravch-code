@@ -19,6 +19,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Test the merged-only section
+        run: python -m unittest discover -s tests -v
+
       - name: Rebuild the open-source table from GitHub
         run: python scripts/update_oss.py
         env:
