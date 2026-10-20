@@ -76,18 +76,20 @@ Every project has a live, in-browser demo. No sign-up and no API key needed.
 I find real bugs in AI tools, reproduce them, and ship the fix with a regression test.
 
 <!-- oss:start -->
-**8 merged PRs across 7 projects.** _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
+**10 merged PRs across 9 projects.** _Rebuilt daily from the GitHub API ([how](.github/workflows/update-readme.yml))._
 
 | Project | Pull request | Merged |
 |---|---|---|
+| [**cmux**](https://github.com/manaflow-ai/cmux) ★ 28.3k | [Stop queued Python stream reads cleanly after close](https://github.com/manaflow-ai/cmux/pull/21351) | Oct 2026 |
+| [**retell-client-js-sdk**](https://github.com/RetellAI/retell-client-js-sdk) ★ 22 | [Prevent call takeover after the monitor disconnects](https://github.com/RetellAI/retell-client-js-sdk/pull/35) | Oct 2026 |
 | [**composio**](https://github.com/ComposioHQ/composio) ★ 30.6k | [Fix Pydantic field aliases in Python tool execution](https://github.com/ComposioHQ/composio/pull/4907) | Oct 2026 |
 | [**baml**](https://github.com/BoundaryML/baml) ★ 9.4k | [Teach initialize_runtime to handle trailing slashes](https://github.com/BoundaryML/baml/pull/5223) | Oct 2026 |
-| [**cli**](https://github.com/fosrl/cli) ★ 60 | [Select ARMv6 binary on armv6l](https://github.com/fosrl/cli/pull/158) | Oct 2026 |
+| [**cli**](https://github.com/fosrl/cli) ★ 61 | [Select ARMv6 binary on armv6l](https://github.com/fosrl/cli/pull/158) | Oct 2026 |
 | [**txtai**](https://github.com/neuml/txtai) ★ 13k | [Preserve ordered-list start values in HTMLToMarkdown](https://github.com/neuml/txtai/pull/1356) | Oct 2026 |
 | [**sentence-transformers**](https://github.com/huggingface/sentence-transformers) ★ 19.2k | [Rescore with the CrossEncoder when only min_score is set in mine_hard_negatives](https://github.com/huggingface/sentence-transformers/pull/4073) | Oct 2026 |
 | [**txtai**](https://github.com/neuml/txtai) ★ 13k | [Skip NULL aggregate values from shards with no matching rows](https://github.com/neuml/txtai/pull/1331) | Oct 2026 |
 | [**haystack**](https://github.com/deepset-ai/haystack) ★ 26.8k | [Treat None meta values as missing in MetaFieldRanker](https://github.com/deepset-ai/haystack/pull/12863) | Sep 2026 |
-| [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 12.2k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
+| [**opensre**](https://github.com/Tracer-Cloud/opensre) ★ 12.3k | [Improve RCA prompt for evidence-grounded diagnosis](https://github.com/Tracer-Cloud/opensre/pull/716) | Apr 2026 |
 <!-- oss:end -->
 
 ---
